@@ -7,10 +7,10 @@ require_relative 'enemy'
 Window.width  = 800
 Window.height = 600
 
-player_img = Image.load("player.png")
+player_img = Image.load("numa.png")
 player_img.setColorKey([0, 0, 0])
 
-enemy_img = Image.load("enemy.png")
+enemy_img = Image.load("red.png")
 enemy_img.setColorKey([0, 0, 0])
 
 player = Player.new(400, 500, player_img)
